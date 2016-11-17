@@ -11,11 +11,5 @@ matrix:
   - os: linux
     dist: trusty
     python: '3.5'
-  - os: osx
-    language: objective-c
-    env: PYENV_VERSION=2.7.12
-  - os: osx
-    language: objective-c
-    env: PYENV_VERSION=3.5.2
 script:
 - "./.travis/run.sh"
