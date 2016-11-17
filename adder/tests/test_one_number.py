@@ -1,6 +1,6 @@
 from unittest import TestCase
 import math
-
+from numpy import inf, isinf, nan, isnan
 import adder
 
 class TestOneNumber(TestCase):
@@ -15,7 +15,7 @@ class TestOneNumber(TestCase):
             self.assertEqual(adder.run(num), num)
 
     def test_deplorables(self):
-        self.assertTrue(math.isinf(adder.run(math.inf)))
-        self.assertTrue(math.isnan(adder.run(math.nan)))
+        self.assertTrue(isinf(adder.run(inf)))
+        self.assertTrue(isnan(adder.run(nan)))
 
 
