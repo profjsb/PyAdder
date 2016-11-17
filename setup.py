@@ -26,7 +26,7 @@ Topic :: Software Development :: Libraries :: Python Modules
 """.splitlines()))
 
 setup(
-        name="adder",
+        name="PyAdder",
         version=VERSION,
         description=DESCRIPTION,
         long_description=DESCRIPTION,
@@ -36,4 +36,7 @@ setup(
         url="http://github.com/profjsb/PyAdder",
         license="BSD",
         packages=['adder', 'adder.tests'],
-        platforms=['any'])
+        platforms=['any'],
+        setup_requires=['pytest-runner'],
+        tests_require=['pytest']
+)
