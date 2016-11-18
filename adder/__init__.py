@@ -1,8 +1,8 @@
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 __author__ = "Josh!"
 
 from numpy import array
 
 def run(*args):
-    return -1*array(args).sum()
+    return array(args).sum()
 
