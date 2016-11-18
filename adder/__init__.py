@@ -4,5 +4,5 @@ __author__ = "Josh!"
 from numpy import array
 
 def run(*args):
-    return array(args).sum()
+    return -1*array(args).sum()
 
