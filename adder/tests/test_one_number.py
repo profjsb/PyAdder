@@ -18,4 +18,7 @@ class TestOneNumber(TestCase):
         self.assertTrue(isinf(adder.run(inf)))
         self.assertTrue(isnan(adder.run(nan)))
 
+class TestTwoNumbers(TestCase):
 
+    def test_floats(self):
+        self.assertEqual(adder.run([2.0,3.0]), 5.0)
