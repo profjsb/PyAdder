@@ -10,7 +10,7 @@ from distutils.command.build_ext import build_ext
 from distutils.errors import CCompilerError, DistutilsExecError, \
     DistutilsPlatformError
 
-VERSION = '0.0.1'
+VERSION = '0.0.3'
 DESCRIPTION = "Total simple adder. Showing off package structure"
 
 CLASSIFIERS = filter(None, map(str.strip,
