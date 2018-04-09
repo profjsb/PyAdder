@@ -1,7 +1,7 @@
 [run]
 branch = True
-source = adder/
 
 [report]
 omit =
     adder/tests/*
+    setup.py
