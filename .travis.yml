@@ -15,4 +15,6 @@ matrix:
     dist: trusty
     python: '3.5'
 script:
-- "./.travis/run.sh"
+  - "./.travis/run.sh"
+after_success:
+  - codecov

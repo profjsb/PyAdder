@@ -12,7 +12,8 @@ fi
 
 python setup.py build_ext -i
 python -m compileall -f .
-python setup.py test
+py.test tests/test.py --cov=codecov 
+# python setup.py test
 
 if [[ $TRAVIS_OS_NAME == 'osx' ]]; then
   python setup.py bdist_wheel
