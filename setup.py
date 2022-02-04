@@ -10,7 +10,7 @@ from distutils.command.build_ext import build_ext
 from distutils.errors import CCompilerError, DistutilsExecError, \
     DistutilsPlatformError
 
-VERSION = '0.0.3'
+VERSION = '0.0.4'
 DESCRIPTION = "Total simple adder. Showing off package structure"
 
 CLASSIFIERS = filter(None, map(str.strip,
@@ -19,8 +19,11 @@ Development Status :: 1 - Unstable
 Intended Audience :: Students
 License :: OSI Approved :: BSD License
 Programming Language :: Python
-Programming Language :: Python :: 2.7
 Programming Language :: Python :: 3.5
+Programming Language :: Python :: 3.6
+Programming Language :: Python :: 3.7
+Programming Language :: Python :: 3.8
+Programming Language :: Python :: 3.9
 Programming Language :: Python :: Implementation :: CPython
 Topic :: Software Development :: Libraries :: Python Modules
 """.splitlines()))
