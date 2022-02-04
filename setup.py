@@ -13,10 +13,10 @@ from distutils.errors import CCompilerError, DistutilsExecError, \
 VERSION = '0.0.4'
 DESCRIPTION = "Total simple adder. Showing off package structure"
 
-CLASSIFIERS = filter(None, map(str.strip,
+CLASSIFIERS = list(filter(None, map(str.strip,
 """
-Development Status :: 1 - Unstable
-Intended Audience :: Students
+Development Status :: 2 - Pre-Alpha
+Intended Audience :: Education
 License :: OSI Approved :: BSD License
 Programming Language :: Python
 Programming Language :: Python :: 3.5
@@ -26,7 +26,7 @@ Programming Language :: Python :: 3.8
 Programming Language :: Python :: 3.9
 Programming Language :: Python :: Implementation :: CPython
 Topic :: Software Development :: Libraries :: Python Modules
-""".splitlines()))
+""".splitlines())))
 
 setup(
         name="PyAdder",
