@@ -1,7 +1,13 @@
-from __future__ import absolute_import
 import unittest
 import doctest
 import sys
+
+
+def additional_tests():
+    import bson
+    suite = unittest.TestSuite()
+    suite.addTest(doctest.DocTestSuite(bson))
+    return suite
 
 def all_tests_suite():
     def get_suite():
