@@ -2,7 +2,8 @@
 
 [![Python package](https://github.com/profjsb/PyAdder/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/profjsb/PyAdder/actions/workflows/test.yml)
 
-[![DOI](https://zenodo.org/badge/74057441.svg)](https://zenodo.org/badge/latestdoi/74057441)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5975993.svg)](https://doi.org/10.5281/zenodo.5975993)
+
 
 [![codecov](https://codecov.io/gh/profjsb/PyAdder/branch/master/graph/badge.svg)](https://codecov.io/gh/profjsb/PyAdder)
 
