@@ -9,7 +9,7 @@
 
 [![PyPi version](https://badgen.net/pypi/v/PyAdder/)](https://pypi.com/project/PyAdder)
 
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/PyAdder/)
 
 [![GitHub latest commit](https://badgen.net/github/last-commit/profjsb/PyAdder)](https://GitHub.com/profjsb/PyAdder/commit/)
 
