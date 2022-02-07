@@ -1,14 +1,6 @@
 #!/usr/bin/env python
-from __future__ import with_statement
-
 import sys
-try:
-    from setuptools import setup, Extension, Command
-except ImportError:
-    from distutils.core import setup, Extension, Command
-from distutils.command.build_ext import build_ext
-from distutils.errors import CCompilerError, DistutilsExecError, \
-    DistutilsPlatformError
+from setuptools import setup
 
 VERSION = '0.0.4'
 DESCRIPTION = "Total simple adder. Showing off package structure"
@@ -33,11 +25,14 @@ setup(
         version=VERSION,
         description=DESCRIPTION,
         long_description=DESCRIPTION,
+        long_description_content_type="text/x-rst",
         classifiers=CLASSIFIERS,
         author="Josh Bloom",
         author_email="profjsb@gmail.com",
         url="http://github.com/profjsb/PyAdder",
+        python_requires='>=3',
         license="BSD",
+        keywords='sample setuptools eduction data-science',
         packages=['adder', 'adder.tests'],
         platforms=['any'],
         setup_requires=['pytest-runner'],
