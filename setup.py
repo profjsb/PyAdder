@@ -2,7 +2,7 @@
 import sys
 from setuptools import setup
 
-VERSION = '0.0.4'
+VERSION = '0.0.5'
 DESCRIPTION = "Total simple adder. Showing off package structure"
 
 CLASSIFIERS = list(filter(None, map(str.strip,
