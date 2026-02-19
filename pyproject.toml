@@ -1,6 +1,6 @@
 [project]
 name = "PyAdder"
-version = "0.0.5"
+version = "0.0.6"
 description = "Total simple adder. Showing off package structure"
 readme = "README.md"
 license = "BSD-3-Clause"
