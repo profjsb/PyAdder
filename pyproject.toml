@@ -1,0 +1,43 @@
+[project]
+name = "PyAdder"
+version = "0.0.5"
+description = "Total simple adder. Showing off package structure"
+readme = "README.md"
+license = "BSD-3-Clause"
+requires-python = ">=3.11"
+authors = [
+    { name = "Josh Bloom", email = "profjsb@gmail.com" },
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+keywords = ["sample", "education", "data-science"]
+dependencies = [
+    "numpy",
+]
+
+[project.urls]
+Homepage = "https://github.com/profjsb/PyAdder"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["adder"]
+
+[tool.pytest.ini_options]
+addopts = "--verbose"
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "pytest-cov",
+]
