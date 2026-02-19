@@ -7,7 +7,6 @@ __pycache__
 *.dist-info
 *.egg-info
 *.egg
-*.pyc
 *.so
 .DS_Store
 /MANIFEST
@@ -18,3 +17,4 @@ __pycache__
 /dist
 /docs
 .cache
+.venv

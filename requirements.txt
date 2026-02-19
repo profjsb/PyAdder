@@ -1,4 +1,0 @@
-pytest
-numpy
-codecov
-pytest-cov

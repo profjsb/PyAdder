@@ -40,4 +40,5 @@ addopts = "--verbose"
 dev = [
     "pytest",
     "pytest-cov",
+    "ruff",
 ]

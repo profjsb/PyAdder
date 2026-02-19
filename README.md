@@ -17,29 +17,20 @@
 Show off the structure of a Python codebase.
 
 ```
-> tree PyAdder/ -a -T PyAdder -C --noreport -I ".git|*.pyc|.cache|.pytest_cache|*~|.DS_Store"
 PyAdder/
 ├── .coveragerc
 ├── .github
-│   └── workflows
-│       └── test.yml
+│   └── workflows
+│       └── test.yml
 ├── .gitignore
-├── .travis
-│   └── run.sh
-├── .travis.yml
-├── CHANGES.txt
 ├── Dockerfile
 ├── LICENSE.txt
-├── MANIFEST.in
 ├── README.md
+├── CHANGES.txt
+├── pyproject.toml
 ├── adder
-│   ├── __init__.py
-│   ├── __pycache__
-│   └── tests
-│       ├── __init__.py
-│       ├── __pycache__
-│       └── test_one_number.py
-├── requirements.txt
-├── setup.cfg
-└── setup.py
+│   ├── __init__.py
+│   └── tests
+│       ├── __init__.py
+│       └── test_one_number.py
 ```

@@ -4,4 +4,3 @@ branch = True
 [report]
 omit =
     adder/tests/*
-    setup.py
